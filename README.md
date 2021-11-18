@@ -1,10 +1,9 @@
 # Product template
 
-This repository is intended to get you up and running with a new Nextjs project with carbon design system installed.
+
 
 ## Repository structure
 
-The NextJS project lives in the `web/` directory.
 
 
 ## Usage
@@ -17,15 +16,3 @@ Simply clone the project and start developing!
 
 ## Features
 
-- [x] Typescript
-- [x] Sass
-- [x] Carbon Components with types
-- [x] Internationalization (i18n)
-- [x] Prettier with config
-- [ ] Authentication
-- [ ] ESLint with linting rules
-- [ ] CI Setup
-- [ ] Unit testing
-- [ ] Login page template
-- [ ] Form page template
-- [ ] Example carbon-charts
