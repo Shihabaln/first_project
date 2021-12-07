@@ -4,7 +4,7 @@ This project is intended to be used with speed cameras to detect and record plat
 
 
 ## Project demo
-
+* Run `python main.py`
 
 
 
@@ -18,3 +18,4 @@ This project is intended to be used with speed cameras to detect and record plat
 * `data.csv` will contain the plate numbers extracted in excel sheet
 * to install `tesseract` for windows first download binary version from https://github.com/UB-Mannheim/tesseract/wiki
 * `pip install flask` , `pip install opencv-python` , `pip install pytesseract`
+
