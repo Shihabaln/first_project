@@ -1,0 +1,19 @@
+*__pycache__/
+
+#python files:
+file.py
+ocr_core.py
+ocr_v2.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+#data
+*.csv
+# Environments
+.env
+.venv
+
+#images 
+static/images*
