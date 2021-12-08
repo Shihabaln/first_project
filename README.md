@@ -1,18 +1,22 @@
-# Product template
+# Plate number extractor
+This project is intended to be used with speed cameras to detect and record plate numbers. 
 
 
 
-## Repository structure
+## Project demo
+* Run `python main.py`
 
 
+
+## Dependencies
+* Flask
+* OpenCV
+* Pandas
+* Tesseract 4
 
 ## Usage
-
-The intended usage is for you to clone this project as a base for front-end applications.
-This repository intends to serve as a guide with best practices already set up for you.
-
-Simply clone the project and start developing!
-
-
-## Features
+* `data.csv` will contain the plate numbers extracted in excel sheet
+* In `test.py` line 10 ,do change the path to tessetact to where OCR engine is installed. 
+* to install `tesseract` for windows first download binary version from https://github.com/UB-Mannheim/tesseract/wiki
+* `pip install flask` , `pip install opencv-python` , `pip install pytesseract`
 

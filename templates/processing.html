@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Process your image</title>
+ 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="../static/jumbotron-narrow.css" rel="stylesheet">
+
+    <link href="../static/style.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="/">Home</a>
+                    </li>
+                    <li role="presentation"><a href="https://github.com/Shihabaln">Shihab</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Process your plate nummber</h3>
+        </div>
+ 
+        <div class="row marketing">
+             <div class="col-lg-6">
+                <h4>Extract</h4>
+                <form id="form-extract" action="{{ url_for('extract') }}" method="POST" enctype="multipart/form-data"> 
+                  <button id="btnextract" class="btn btn-lg btn-success" type="submit">Extract</button>
+	  		  <input type="text" class="hidden" name="image" value="{{ image_name }}">
+                </form>
+                
+            </div>
+        </div>
+
+ 
+        <footer class="footer">
+            <p>&#169; Copyright Using Python, Flask and OCR.</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
+
